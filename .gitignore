@@ -416,3 +416,10 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+/Library/
+/Logs/
+/Build-*/
+/Temp/
+/*.sln
+/*.csproj
+/UserSettings/
