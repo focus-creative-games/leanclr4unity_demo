@@ -8,3 +8,4 @@
 /UserSettings/
 /*.log
 /Packages/packages-lock.json
+/Release-*/

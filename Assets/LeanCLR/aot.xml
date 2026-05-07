@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aot>
+  <!--
+    LeanAOT aot.xml smoke tests for Test.dll (assembly short name: Test).
+    Wildcards (glob subset):
+    - assembly fullname="T??t" matches Test (each ? = one character).
+    - type fullname="Ass*" matches Assert.
+    - method name="IsTr*" matches IsTrue; exact "IsTrue" line runs later and sets aot=1 (document order: later wins).
+    - method/@signature: glob on MethodDef.FullName; "*Assert*IsFalse*" then bare IsFalse aot=1 (later wins).
+  -->
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="RotateCube">
+      <method name="Update" aot="0" />
+    </type>
+  </assembly>
+</aot>

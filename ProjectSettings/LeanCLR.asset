@@ -13,3 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: LeanCLR.Editor::LeanCLR.LeanCLRSettings
   enable: 1
+  leanAOTSettings:
+    layoutValidation: 0
+    ruleFiles:
+    - Assets\LeanCLR\aot.xml

@@ -2,9 +2,13 @@
   "dependencies": {
     "com.code-philosophy.leanclr": "https://github.com/focus-creative-games/leanclr4unity.git",
     "com.unity.ide.visualstudio": "2.0.27",
+    "com.unity.multiplayer.center": "1.0.1",
     "com.unity.ugui": "2.0.0",
+    "com.unity.modules.accessibility": "1.0.0",
+    "com.unity.modules.adaptiveperformance": "1.0.0",
     "com.unity.modules.audio": "1.0.0",
     "com.unity.modules.jsonserialize": "1.0.0",
-    "com.unity.modules.ui": "1.0.0"
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.modules.vectorgraphics": "1.0.0"
   }
 }
